@@ -9,4 +9,4 @@ technologies and am a linux nerd.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[rowan.self@gmail.com](mailto:rowan.self@gmail.com)
