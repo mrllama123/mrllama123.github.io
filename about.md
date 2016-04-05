@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 I am a second year computer science student studying at Victoria university. I have a huge passion for open source
-technologies and am interested in many aspects of computers such as, programing, electronics, linux and computer
+and am interested in many things such as, programing, electronics, linux, embedded pc's and computer
 hardware.  
 
 ### Contact me
