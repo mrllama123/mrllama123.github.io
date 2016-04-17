@@ -1,9 +1,7 @@
 ---
 layout: post
 title: fractal joys
-tag:
--fractal
--projects
+tag: [fractal, projects]
 ---
 as i said before i have been playing with fractals and as a starter one i have decided to do
 the sierpinski Triangle  which is supposed to look like this ![sierpinski Triangle](/images/siermathgb3.png)

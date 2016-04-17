@@ -1,8 +1,7 @@
 ---
 layout: post
 title: looking ahead
-tag:
--projects
+tag: [projects]
 ---
 its been a busy week (but great) for me but i have spent some time figuring out
 what this blog is for. Which is basically going to document my projects (which i will talk
