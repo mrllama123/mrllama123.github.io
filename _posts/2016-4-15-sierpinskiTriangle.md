@@ -50,6 +50,4 @@ my code so far looks like this
   }
 {% endhighlight %}  
 
- from what i have gathered it seems Im not getting the proper height which means
- i need to some maths that i haven't touched i years to find out the proper height
- (which i'm pretty sure is Pythagoras) basically i need to read up on the algorithm more    
+ from what i have gathered it seems Im not getting the proper height.
