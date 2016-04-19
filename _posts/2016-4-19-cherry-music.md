@@ -12,13 +12,17 @@ so i tried a different start up script but then the folder which held the music 
 script (i think it was because i was was pointing the dir to .local which messed it up somehow)so then
 i spent the rest of the evening trying out different things in till i found a real simple method using
 something called crontab which i found on the cherry music [wiki](https://github.com/devsnd/cherrymusic/wiki/Setup-guide#tips-and-tricks) using two simple commands
-```
+
+{% highlight bash %}
 EDITOR=nano crontab -e
-```      
+{% endhighlight %}       
+
 then inside the editor:
-```
+
+{% highlight bash %}
 @reboot cd /path/to/your/cherrymusic/installation ; python cherrymusic
-```
+{% endhighlight %} 
+
 which worked once i changed the dir where the music was. Amazingly it runs pretty well
 for something that is on an low spec system. Which is interesting since i always found
 the mini dnla server (which i had before this) to be really glitchy and also i could
