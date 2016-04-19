@@ -19,3 +19,5 @@ then inside the editor:
 ```
 @reboot cd /path/to/your/cherrymusic/installation ; python cherrymusic
 ```
+which worked once i changed the dir where the music was. Which was fine and surprisingly it runs pretty well
+for something that is on an low spec system. So finally after many tries i have found a way to have one place which has all my music and actually works well which mini dnla never worked well to me     
