@@ -2,12 +2,29 @@
 layout: default
 title: Portfolio
 ---
+<head>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#slider1').bxSlider({
+                auto: true,
+                pager: true,
+                slideWidth: 800,
+                captions: true
+            });
+        });
+    </script>
+</head>
 <body>
     <div class="wrapper">
 
         <section>
             <h1>Project Portfolio</h1>
             <h2>Project 1</a></h2>
+            <ul id="slider1">
+              <!--as exsample-->
+              <li><img src="/porfolio/img" title="First image caption" /></li>
+              <li><img src="/porfolio/img" title="Second image caption" /></li>
+            </ul>
 
             <p>Project 1 Description</p>
 
