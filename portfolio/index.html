@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Portfolio
+title: portfolio
 ---
 <head>
     <script type="text/javascript">
@@ -8,7 +8,8 @@ title: Portfolio
             $('#slider1').bxSlider({
                 auto: true,
                 pager: true,
-                slideWidth: 800,
+                slideWidth: 600,
+                slideHeight: 300,
                 captions: true
             });
         });
@@ -19,14 +20,18 @@ title: Portfolio
 
         <section>
             <h1>Project Portfolio</h1>
-            <h2>Project 1</a></h2>
+            <h2>Cherry music server using raspberry pi</a></h2>
             <ul id="slider1">
               <!--as exsample-->
-              <li><img src="/porfolio/img" title="First image caption" /></li>
-              <li><img src="/porfolio/img" title="Second image caption" /></li>
+              <li><img src="/images/portfolio/raspberry-pi-b.jpg" title="raspberry pi"  style="width: auto; height: auto;max-width: 600px;max-height: 300px"/></li>
+              <li><img src="/images/portfolio/cherry music.png" title="cherry music" style="width: auto; height: auto;max-width: 600px;max-height: 300px"/></li>
             </ul>
 
-            <p>Project 1 Description</p>
+            <p>
+              i created an music server that plays music from an web ui using the raspberry pi
+              b+ i talked about it in this <a href="{% post_url 2016-4-19-cherry-music %}">blog post</a>
+
+            </p>
 
         </section>
     </div>
