@@ -1,6 +1,6 @@
 ---
 layout: post
-title: vpn and fractel
+title: updates
 tag: [fractal, projects, server]
 ---
 So i have been doing quite alot recently, I created an vpn using my droplet on digital
@@ -11,9 +11,9 @@ which was pretty simple all it took was to download the deb file from the open v
  the servers fault.
 
  I also have finally finished my Sierpinski triangle fractal, In the end i ended up using
- the paper js libary because for some reason it felt better to use that processing and looks great
- the next thing i want to do is make the tringle scale up and down depending on the canvas width and height.      
+ the paper js libary because for some reason it felt better to use that processing and looks great.
+ The next thing i want to do is make the tringle scale up and down depending on the canvas width and height.      
 ![fractal](/images/tringle.png)
 
 Lastly i added an perfolio page on this website the showcase some of the work i'm doing which i based it
-off an template that i saw online. 
+off an template that i saw online.
