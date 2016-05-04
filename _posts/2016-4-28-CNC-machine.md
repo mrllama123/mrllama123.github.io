@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CNC machine
+title: CNC machine part 1
 tag: [projects, CNC]
 ---
 So i finally  decided to use my ardino for something useful and i knew i had some
@@ -21,6 +21,9 @@ on the servo.
 
 I also have done the soldering aspect of it as well, so creating the wires for the stepper
 motors and soldering them to the motor pins, which was terrible soldering but hey it does the job.    
-Then i had to buy an stepper motor controller so i could actually controll the motors which i have yet to test
+Then i had to buy an stepper motor controller so i could actually controll the motors which i works really well
+using an old adafruit [motor driver libary](https://github.com/adafruit/Adafruit-Motor-Shield-library/) the only problem is that one of the axis is bigger than the other and is slower that the other which makes it intersting...
+and my wonderfull soldering skills (to be fair there were some triky things to solder like the motor pins). So the
+next stage is to put evrything together and figure out how i am going to code it.    
 
 ![cnc2](/images/cnc/IMG_20160427_224451.jpg)
