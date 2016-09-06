@@ -1,7 +1,7 @@
 ---
 layout: post
 title: raspberry pi fun
-tag: [fractal, projects]
+tag: [projects]
 ---
 so i finally got my wireless dongle and in the span of 24 hours i have re-purposed
 the pi to an cherry pi server which works but in an very weird way so i was following
@@ -21,7 +21,7 @@ then inside the editor:
 
 {% highlight bash %}
 @reboot cd /path/to/your/cherrymusic/installation ; python cherrymusic
-{% endhighlight %} 
+{% endhighlight %}
 
 which worked once i changed the dir where the music was. Amazingly it runs pretty well
 for something that is on an low spec system. Which is interesting since i always found

@@ -6,20 +6,20 @@ title: portfolio
     <script type="text/javascript">
         $(document).ready(function() {
             $('#slider1').bxSlider({
-                auto: true,
+                //auto: true,
                 pager: true,
                 slideWidth: 600,
                 slideHeight: 300,
                 captions: false
             });
 
-            // $('#slider2').bxSlider({
-            //     auto: true,
-            //     pager: true,
-            //     slideWidth: 600,
-            //     slideHeight: 300,
-            //     captions: false
-            // });
+            $('#slider2').bxSlider({
+                 //auto: true,
+                 pager: true,
+                 slideWidth: 600,
+                 slideHeight: 300,
+                 captions: false
+            });
         });
     </script>
 </head>
@@ -35,18 +35,31 @@ title: portfolio
             </ul>
 
             <p>
-              i created an music server that plays music from an web ui using the raspberry pi
+              I created an music server that plays music from an web ui using the raspberry pi
               b+ i talked about it in this <a href="{% post_url 2016-4-19-cherry-music %}">blog post</a>
 
             </p>
 
-            <h2>Open vpn server</a></h2>
+            <h2>Open vpn server</h2>
 
             <img src="/images/portfolio/openvpn.png" title="openvpn"  style="width: auto; height: auto;max-width: 600px;max-height: 300px"/>
 
 
           <p>
-            using a digital ocean droplet i created an basic open vpn server using public key authentication
+            Using a digital ocean droplet i created an basic open vpn server using public key authentication
+          </p>
+
+          <h2>media server</h2>
+          <ul id="slider2">
+            <li><img src="/images/mediaserver/emby.png" title="emby" style="width: auto; height: auto;max-width: 600px;max-height: 300px"></li>
+            <li><img src="/images/mediaserver/dashboard.png" title="server dashboard" style="width: auto; height: auto;max-width: 600px;max-height: 300px"></li>
+          </ul>
+          <p>
+            configurated an media server that can autmativcally download music using <a href="https://github.com/rembo10/headphones">headphones</a>,
+             manages media using <a href="https://emby.media/">emby</a>, an torrent web client called trannmittion and
+             netstat which gives a good visual representation on the state of the server cpu load etc. lastly i have
+             a simple apache webserver which uses the materialize framework to display all of the diffrent links to the
+             diffrent servers.
           </p>
         </section>
     </div>
