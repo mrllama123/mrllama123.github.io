@@ -11,13 +11,11 @@ So far i have token apart the cd drives which i will use the stepper motors (whi
   the movement of the lazer) to control the x and y axis i am still not sure what i will  
 do for the z axis. I could either use an lazer of use an servo motor and place an pen
 on the servo.
-
 (sorry the crappy quality)
+
 ![cnc1](/images/cnc/IMG_20160427_202729.jpg)
 
 ![cnc2](/images/cnc/IMG_20160427_203727.jpg)
-
-
 
 I also have done the soldering aspect of it as well, so creating the wires for the stepper
 motors and soldering them to the motor pins, which was terrible soldering but hey it does the job.    
