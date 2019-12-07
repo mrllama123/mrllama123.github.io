@@ -1,7 +1,7 @@
 # Site settings
 title: Rowan Self
 description: "a blog site where hopefully i post more stuff on"
-url: http://reself.tech # the base hostname & protocol for your site
+url: http://rself.github.io # the base hostname & protocol for your site
 
 
 # Build settings
