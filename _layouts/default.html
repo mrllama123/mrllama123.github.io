@@ -1,21 +1,14 @@
 <!DOCTYPE html>
-<html>
 <html lang="en">
   {% include head.html %}
-  <body class="grey lighten-3">
-    {% include header.html %}
-    <div class="page-content">
-      <div class="section no-pad-bot" id="index-banner">
-        <div class="container">
-          <br><br>
+  <body>
+      {% include header.html %}
+      <section id="about">
+        {% include about.html %}
+      </section>
+      <section id="projects">
+        {% include projects.html %}
+      </section>
         {{ content }}
-          <br><br>
-      </div>
-    </div>
-  </div>
-    
+      {% include footer.html %}
   </body>
-
-  {% include scripts.html %}
-
-</html>
