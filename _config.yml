@@ -1,0 +1,8 @@
+# Site settings
+title: Rowan Self
+description: "a blog site where hopefully i post more stuff on"
+url: http://rself.tech # the base hostname & protocol for your site
+
+
+# Build settings
+markdown: kramdown
